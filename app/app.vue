@@ -5,6 +5,8 @@ import "vue-sonner/style.css"; // vue-sonner v2 requires this import
 
 <template>
   <NuxtRouteAnnouncer />
-  <NuxtLayout />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
   <Toaster rich-colors position="top-right" :close-button="true" close-button-position="top-left" />
 </template>
