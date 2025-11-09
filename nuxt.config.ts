@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/icon",
     "@nuxt/image",
-    "@nuxt/ui",
+    "shadcn-nuxt",
   ],
+  shadcn: {
+    prefix: "Ui",
+    componentDir: "./app/components/ui",
+  },
 });
